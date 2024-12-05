@@ -2,6 +2,7 @@
 summarize ground news top article using axios, cheerio and openai 
 
 How to use: 
+
     ```
         1. Add your openai key to ai variable
 
