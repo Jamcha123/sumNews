@@ -1,0 +1,33 @@
+{
+  "name": "sumnews",
+  "version": "1.0.0",
+  "description": "summarize ground news top article using axios, cheerio and openai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamcha123/sumNews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamcha123/sumNews/issues"
+  },
+  "homepage": "https://github.com/Jamcha123/sumNews#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "http-proxy": "^1.18.1",
+    "nodemon": "^3.1.7",
+    "openai": "^4.76.0",
+    "puppeteer": "^23.10.1",
+    "socket.io": "^4.8.1"
+  }
+}
